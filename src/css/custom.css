@@ -7,12 +7,14 @@
 
 /* You can override the default Infima variables here. */
 html[data-theme='dark'] {
-  --ifm-color-primary: #4e89e8;
-  --ifm-color-primary-dark: #5a91ea;
+  --ifm-heading-color: #e07799;
+  --ifm-color-primary: #e07799;
+  --ifm-color-primary-dark: ##e07799;
   /* any other colors you wish to overwrite */
 }
 
 :root {
+  --ifm-heading-color:#d23669;
   --ifm-color-primary: #d23669;
   --ifm-color-primary-dark: #c22b5d;
   --ifm-color-primary-darker: #b72958;

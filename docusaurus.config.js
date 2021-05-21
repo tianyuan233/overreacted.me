@@ -27,6 +27,9 @@ module.exports = {
         },
       ],
     },
+    prism: {
+      theme: require('prism-react-renderer/themes/dracula'),
+    },
     footer: {
       style: 'dark',
       copyright: `♥ Do have faith in what you're doing.`,
