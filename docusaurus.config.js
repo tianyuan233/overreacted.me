@@ -1,11 +1,10 @@
 module.exports = {
   title: 'Overreacted',
-  tagline: '',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: '', // Usually your GitHub org/user name.
+  projectName: '', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'OVERREACTED',
@@ -31,7 +30,7 @@ module.exports = {
       theme: require('prism-react-renderer/themes/dracula'),
     },
     footer: {
-      style: 'dark',
+      // style: 'dark',
       copyright: `♥ Do have faith in what you're doing.`,
     },
   },
